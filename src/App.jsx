@@ -1088,7 +1088,7 @@ function Footer() {
             fontFamily: "'Cormorant Garamond',serif",
             fontSize: "clamp(17px,2.8vw,22px)",
             color: "#5A3800",
-          }}>+91 98765 43210</p>
+          }}>+91 8608037086</p>
         </div>
 
         {/* Bottom credit */}
