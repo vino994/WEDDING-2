@@ -9,14 +9,14 @@ function useStyles() {
     const link = document.createElement("link");
     link.rel = "stylesheet";
     link.href =
-      "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Great+Vibes&family=Cinzel:wght@400;500;600;700;900&family=IM+Fell+English:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap";
+      "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,50₀;1,6₀;1,7₀&family=Great+Vibes&family=Cinzel:wght@4₀;5₀;6₀;7₀;9₀&family=IM+Fell+English:ital@₀;1&family=Libre+Baskerville:ital,wght@₀,4₀;₀,7₀;1,4₀&display=swap";
     document.head.appendChild(link);
 
     const style = document.createElement("style");
     style.textContent = `
       *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
       html { scroll-behavior:smooth; }
-      body { background:#FDFAF7; color:#6B4A10; overflow-x:hidden; font-family:'Cormorant',serif; }
+      body { background:#FDFAF7; color:#6B4A10; overflow-x:hidden;   font-family: "Delius Swash Caps", cursive;}
       ::-webkit-scrollbar { width:4px; }
       ::-webkit-scrollbar-thumb { background:linear-gradient(#C8960C,#B8A89A); border-radius:2px; }
 
@@ -45,9 +45,9 @@ function useStyles() {
       .revR.in    { opacity:1; transform:translateX(0); }
 
       .italic-bold { font-style:italic; font-weight:700; }
-      .script-name { font-family:'Great Vibes',cursive; }
-      .serif-title { font-family:'Playfair Display',serif; }
-      .fell-italic { font-family:'IM Fell English',serif; font-style:italic; }
+      .script-name {   font-family: "Delius Swash Caps", cursive;}
+      .serif-title {   font-family: "Delius Swash Caps", cursive; font-weight:700; }
+      .fell-italic {   font-family: "Delius Swash Caps", cursive; }
 
       @media(max-width:768px){
         .desktop-only{ display:none!important; }
