@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import music from "./assets/music.mp3";
 
 /* ─────────────────────────────────────────────
@@ -1236,6 +1237,7 @@ export default function App() {
       <div id="venue">     <VenueSection/> </div>
       <div id="blessings"> <BlessingsSection/> </div>
       <Footer/>
+      <Analytics />
     </div>
   );
 }
